@@ -20,11 +20,9 @@ $(document).on('ready', function(){
 
   // add the classes here, so we don't mess up our markdown file
   $('.remark-slides-area .remark-slide-content:first').addClass('center middle');
-  $('.remark-slides-area .remark-slide-content:eq(1)').addClass('sumo-wouter');
-  $('.remark-slides-area .remark-slide-content:eq(2)').addClass('sumocoders image-replace');
-  $('.remark-slides-area .remark-slide-content:eq(3)').addClass('symfony image-replace center middle');
-  $('.remark-slides-area .remark-slide-content:eq(4)').addClass('fork image-replace');
+  $('.remark-slides-area .remark-slide-content:eq(1)').addClass('hello-its-me center middle');
+  $('.remark-slides-area .remark-slide-content:eq(2)').addClass('madewithlove image-replace');
 
   $('.remark-slides-area .remark-slide-content').eq(-3).addClass('questions image-replace');
-  $('.remark-slides-area .remark-slide-content').eq(-2).addClass('center thanks');
+  $('.remark-slides-area .remark-slide-content').eq(-2).addClass('thanks');
 });
